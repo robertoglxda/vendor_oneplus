@@ -286,6 +286,7 @@ android_app_import {
 		enabled: false,
 	},
 	product_specific: true,
+	enforce_uses_libs: false,
 }
 
 android_app_import {
@@ -297,6 +298,7 @@ android_app_import {
 		enabled: false,
 	},
 	product_specific: true,
+	enforce_uses_libs: false,
 }
 
 android_app_import {
@@ -308,6 +310,7 @@ android_app_import {
 		enabled: false,
 	},
 	product_specific: true,
+	enforce_uses_libs: false,
 }
 
 android_app_import {
@@ -319,6 +322,7 @@ android_app_import {
 		enabled: false,
 	},
 	product_specific: true,
+	enforce_uses_libs: false,
 }
 
 android_app_import {
@@ -330,6 +334,7 @@ android_app_import {
 		enabled: false,
 	},
 	product_specific: true,
+	enforce_uses_libs: false,
 }
 
 android_app_import {
@@ -342,6 +347,7 @@ android_app_import {
 	},
 	privileged: true,
 	product_specific: true,
+	enforce_uses_libs: false,
 }
 
 android_app_import {
@@ -354,6 +360,7 @@ android_app_import {
 	},
 	privileged: true,
 	product_specific: true,
+	enforce_uses_libs: false,
 }
 
 android_app_import {
@@ -366,18 +373,7 @@ android_app_import {
 	},
 	privileged: true,
 	product_specific: true,
-}
-
-dex_import {
-	name: "WfdCommon",
-	owner: "oneplus",
-	jars: ["proprietary/framework/WfdCommon.jar"],
-}
-
-dex_import {
-	name: "vendor.oneplus.hardware.param-V1.0-java",
-	owner: "oneplus",
-	jars: ["proprietary/framework/vendor.oneplus.hardware.param-V1.0-java.jar"],
+	enforce_uses_libs: false,
 }
 
 prebuilt_etc_xml {
